@@ -1,4 +1,4 @@
-This project explores using a DCGAN to generate realistic terrain using a dataset created from NASA's opensource Mars DEM data. 
+This project explores using a DCGAN to generate realistic terrain using a dataset created from NASA's opensource Mars DEM data. This project was inspired by the works of Goodfellow et al and utilises the Keras framework.
 
 If this experiment is to be replicated you will have to find a large Tiff file to use as input and configure directories within the code. An important note is that this project is configured to generate height maps of 128px only, however increasing this number will lead to a much greater training time. I was able to process 10,000 epochs using a single, top end GPU. If you increase to 1024px, Nvidia recommend 1 week training time with 8 GPUs, or 5 weeks with a single GPU, though this will vary and depend greatly on the number of epochs you chose.
 
